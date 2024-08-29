@@ -20,7 +20,7 @@ const Benefits = () => {
         {benefits.map((benefit, i) => (
           <div
             key={i}
-            className="flex bg-white items-center space-x-3 shadow-gray-300 shadow-md p-6 lg:p-5 rounded-lg hover:scale-105"
+            className="flex bg-white items-center spgit push origin mainace-x-3 shadow-gray-300 shadow-md p-6 lg:p-5 rounded-lg hover:scale-105"
           >
             <FaRegCircleCheck className="text-2xl text-green-500" />
             <p className="text-base lg:text-xl">{benefit.text}</p>
