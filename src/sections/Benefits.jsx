@@ -15,7 +15,7 @@ const Benefits = () => {
       </div>
       <div className="w-full lg:w-1/2 space-y-3 mt-5">
         <h1 className="text-[#111827] text-3xl font-bold lg:text-4xl mb-6">
-          Key benefits
+          Beneficios
         </h1>
         {benefits.map((benefit, i) => (
           <div

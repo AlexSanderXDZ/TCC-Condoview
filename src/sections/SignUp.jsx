@@ -4,10 +4,10 @@ const SignUp = () => {
   return (
     <div className="lg:h-screen flex-col flex lg:flex-row lg:justify-between lg:items-center w-full">
       <div className="space-y-5 p-5 lg:p-20 flex flex-col justify-center lg:w-1/2">
-        <h1 className="text-4xl font-bold md:text-5xl">Sign up today with PayScan</h1>
-        <p className="text-lg lg:2xl">Create an account to get started</p>
+        <h1 className="text-4xl font-bold md:text-4xl">Visite a Indominus Também</h1>
+        <p className="text-lg lg:3xl">E veja sobre nossa equipe</p> 
         <button className="button w-48 py-3 px-4 font-medium text-xl rounded-md text-white bg-[#141414]">
-          Get started
+          Visitar
         </button>
       </div>
       <div className="w-full lg:w-1/2 mb-10 lg:mb-0">

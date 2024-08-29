@@ -1,33 +1,35 @@
-## PayScan
-
-Demo
-![demo video](./screenshots/PayScan.gif)
-
-## PayScan - Barcode Scanning Payment System
-
-Payleaf is a modern payment system that allows users to pay for goods and services using their smartphone cameras to scan barcodes. With Payleaf, users can make payments quickly and easily, without the need for cash or physical cards.
-
-## Technology
-
-This demo uses:
-
-- ReactJs
-- Tailwind CSS
-
-## To clone this project, follow these steps:
-
--Go to the GitHub repository page of this project.
-
--Click the green "Code" button on the right side of the page.
-
--In the dropdown menu, select "HTTPS" or "SSH" depending on your preference.
-
--Copy the URL provided.
-
--Open your terminal or command prompt and navigate to the directory where you want to clone the project.
-
--Run the following command  replacing <repository-url> with the URL you copied in step 4:
-![demo photo](./screenshots/git-clone.jpg)
 
 
--This will create a copy of the repository in your local directory.
+## CondoView
+
+**Nosso aplicativo de gestão de condomínio** é uma solução desenvolvida para simplificar a comunicação e resolver problemas dentro do condomínio, mantendo a transparência em todas as ações. Ele serve como um meio centralizado para os moradores se comunicarem e resolverem suas questões cotidianas de forma eficiente.
+
+### Problematização
+
+**Crescimento dos Condomínios:**
+- A quantidade de domicílios em condomínios no Brasil passou de 1,6% em 2010 para 2,4% em 2022 (AGÊNCIA IBGE NOTÍCIAS, 2022).
+- Isso gera uma necessidade crescente de soluções para simplificar e otimizar a administração condominial.
+
+**Complexidade das Relações Condominiais:**
+- A convivência entre pessoas com hábitos e valores distintos pode gerar conflitos, comparável a um "barril de pólvora" pronto para explodir.
+
+**Desafios na Comunicação:**
+- Moradores muitas vezes evitam expressar opiniões para evitar atritos.
+- A administração não recebe o feedback necessário para melhorar.
+
+### Público-alvo
+
+- Síndicos e Administradores
+- Moradores e Pessoas
+- Empresas e Condomínios
+
+### A Solução: CondoView
+
+- **Gestão de Finanças**
+- **Sistema de Denúncias**
+- **Sistema de Postagens**
+- **Reserva de Espaços Internos**
+- **Outras Funcionalidades**
+
+---
+

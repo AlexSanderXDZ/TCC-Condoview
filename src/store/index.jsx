@@ -14,49 +14,49 @@ const { setGlobalState, useGlobalState, getGlobalState } = createGlobalState(
     about :[
         {
             id: 1,
-            text: "Zero onboarding fee",
+            text: "Interface intuitiva",
         },
         {
             id: 2,
-            text: "Seamless payment collection",
+            text: "Comunicação clara entre moradores",
         },
         {
             id: 3,
-            text: "Instant credit alert",
+            text: "Projeto em constante aprimoramento",
         },
         {
             id: 4,
-            text: "Customize QR payment terminal",
+            text: "Fácil de usar",
         },
     ],
     benefits :[
         {
             id: 1,
-            text: "Approach and attract more customers.",
+            text: "Variedade de funções",
         },
         {
             id: 2,
-            text: "Low transaction fee.",
+            text: "Suporte 24h",
         },
         {
             id: 3,
-            text: "Simple, cost effective setup.",
+            text: "Ajuda na resolução de problemas",
         },
         {
             id: 4,
-            text: "Accept faster payment.",
+            text: "Navegação Simplificada",
         },
         {
             id: 5,
-            text: "Security coverage.",
+            text: "Acessibilidades",
         },
         {
             id: 6,
-            text: "Bridge the gap between face-to-face and Digital.",
+            text: "Alta Confiabilidade",
         },
         {
             id: 7,
-            text: "No change, No wahala!.",
+            text: "Comunicação eficiente.",
         },
     ],
     steps :[
