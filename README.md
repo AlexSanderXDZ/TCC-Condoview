@@ -35,4 +35,3 @@ Aqui está o conteúdo reformulado para o CondoView:
 
 ---
 
-Essa versão mantém o foco no CondoView e nas necessidades que ele atende, destacando as funcionalidades e o público-alvo.
