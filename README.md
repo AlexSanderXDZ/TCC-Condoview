@@ -1,5 +1,3 @@
-Aqui está o conteúdo reformulado para o CondoView:
-
 ---
 
 ## CondoView
