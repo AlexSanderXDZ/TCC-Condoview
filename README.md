@@ -26,11 +26,11 @@
 ### A Solução: CondoView
 
 - **Gestão de Finanças**
-<<<<<<< HEAD
+
 - **Sistema de Denúncias**
-=======
+
 - **Sistema de Denúncia Anônima**
->>>>>>> 3a9160e3499cb3c33308e17f77841c98a25ab8a2
+
 - **Sistema de Postagens**
 - **Reserva de Espaços Internos**
 - **Outras Funcionalidades**
