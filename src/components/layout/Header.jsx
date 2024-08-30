@@ -1,4 +1,4 @@
-import hero from "../../assets/layout/logo.svg";
+import hero from "../../assets/imgs/indo.png";
 import { FaTimes, FaBars } from "react-icons/fa";
 import { useState } from "react";
 import { Link } from "react-router-dom";
@@ -18,7 +18,7 @@ const Header = () => {
         <h1 className="text-xl sm:text-4xl font-bold">CondoView</h1>
       </Link>
 
-      {/* Hamburger */}
+
       <div onClick={handleClick} className="lg:hidden z-10 text-2xl sm:text-4xl">
         {!nav ? <FaBars /> : <FaTimes className="hover:text-red-500" />}
       </div>
@@ -57,14 +57,6 @@ const Header = () => {
           >
             sobre o app
           </ScrollLink>
-          <ScrollLink
-            to="faqs"
-            smooth={true}
-            duration={500}
-            className="cursor-pointer hover:scale-105"
-          >
-            FAQs
-          </ScrollLink>
         </div>
         <div className="hidden lg:flex">
           <button className="button p-2 px-4 font-medium text-xl rounded-md text-white bg-[#141414] hover:scale-105">
@@ -78,10 +70,10 @@ const Header = () => {
         className={
           !nav
             ? "hidden"
-            : "absolute top-20 left-0 w-full h-screen flex bg-[#FEF7C3] z-40 flex-col justify-center items-center"
+            : "absolute top-20 left-0 w-full h-screen flex bg-[#E2BDFF] z-40 flex-col justify-center items-center"
         }
       >
-        <li className="py-6 text-4xl">
+        <li className="py-6 text-5xl">
           <ScrollLink
             to="home"
             smooth={true}
@@ -125,16 +117,8 @@ const Header = () => {
             sobre o app
           </ScrollLink>
         </li>
-        <li className="py-6 text-4xl">
-          <ScrollLink
-            to="faqs"
-            smooth={true}
-            duration={500}
-            onClick={handleClick}
-            className="hover:scale-105 cursor-pointer"
-          >
-            FAQs
-          </ScrollLink>
+        <li className="py-6 text-5xl">
+          
         </li>
       </ul>
     </div>

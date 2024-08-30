@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const SignUp = () => {
   return (
     <div className="lg:h-screen flex-col flex lg:flex-row lg:justify-between lg:items-center w-full">
