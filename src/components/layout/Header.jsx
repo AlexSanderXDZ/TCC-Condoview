@@ -47,7 +47,7 @@ const Header = () => {
             duration={500}
             className="cursor-pointer hover:scale-105"
           >
-           beneficios
+           Propostas
           </ScrollLink>
           <ScrollLink
             to="steps"
@@ -103,7 +103,7 @@ const Header = () => {
             onClick={handleClick}
             className="hover:scale-105 cursor-pointer"
           >
-           beneficios
+           Propostas
           </ScrollLink>
         </li>
         <li className="py-6 text-4xl">
