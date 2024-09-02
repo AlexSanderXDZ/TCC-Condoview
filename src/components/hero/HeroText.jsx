@@ -7,12 +7,13 @@ const HeroText = () => {
 
   return (
     <motion.div
-      className="w-full lg:w-1/2 px-5 lg:px-0 lg:ml-20 my-10"
+      className="w-full lg:w-1/2 px-4 lg:px-0 my-10"
+      style={{ marginLeft: '-20px' }} // Ajuste a margem esquerda conforme necessário
       initial={{ y: 300 }}
       animate={{ y: 0 }}
       transition={{ delay: 0.5, stiffness: 100, type: 'spring' }}
     >
-      <div className="space-y-5 mb-5">
+      <div className="space-y-8 mb-8">
         <h1 className="text-[#141414] font-bold hero-text text-4xl lg:text-5xl leading-[30px] lg:leading-[45px] tracking-[-2%] lg:tracking-[-2.5%]">
           Sistema e Aplicativo para Administração de Condomínios
         </h1>
@@ -20,7 +21,7 @@ const HeroText = () => {
           INOVAÇÃO QUE TRANSFORMA CONDOMÍNIOS
         </p>
       </div>
-      <div className="space-y-5">
+      <div className="mt-8">
         <a 
           href={betaAppUrl} 
           download 
