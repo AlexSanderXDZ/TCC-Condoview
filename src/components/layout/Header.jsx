@@ -18,20 +18,19 @@ const Header = () => {
         <h1 className="text-xl sm:text-4xl font-bold">CondoView</h1>
       </Link>
 
-
       <div onClick={handleClick} className="lg:hidden z-10 text-2xl sm:text-4xl">
         {!nav ? <FaBars /> : <FaTimes className="hover:text-red-500" />}
       </div>
 
       <div className="w-3/5 justify-between items-center hidden lg:flex">
-        <div className="w-2/3 hidden lg:flex justify-between text-black text-lg font-semibold">
+        <div className="w-2/3 flex justify-between text-black text-lg font-semibold">
           <ScrollLink
             to="inicio"
             smooth={true}
             duration={500}
             className="cursor-pointer hover:scale-105"
           >
-           inicio
+            inicio
           </ScrollLink>
           <ScrollLink
             to="sobre"
@@ -47,7 +46,7 @@ const Header = () => {
             duration={500}
             className="cursor-pointer hover:scale-105"
           >
-           Sobre o app
+            Sobre o app
           </ScrollLink>
           <ScrollLink
             to="proposta"
@@ -57,11 +56,6 @@ const Header = () => {
           >
             Propostas
           </ScrollLink>
-        </div>
-        <div className="hidden lg:flex">
-          <button className="button p-2 px-4 font-medium text-xl rounded-md text-white bg-[#141414] hover:scale-105">
-            Entrar
-          </button>
         </div>
       </div>
 
@@ -73,7 +67,7 @@ const Header = () => {
             : "absolute top-20 left-0 w-full h-screen flex bg-[#C5B4E3] z-40 flex-col justify-center items-center"
         }
       >
-        <li className="py-6 text-5xl">
+        <li className="py-8 text-6xl">
           <ScrollLink
             to="inicio"
             smooth={true}
@@ -81,10 +75,10 @@ const Header = () => {
             onClick={handleClick}
             className="hover:scale-105 cursor-pointer"
           >
-           inicio
+            inicio
           </ScrollLink>
         </li>
-        <li className="py-6 text-4xl">
+        <li className="py-8 text-6xl">
           <ScrollLink
             to="sobre"
             smooth={true}
@@ -95,7 +89,7 @@ const Header = () => {
             Sobre
           </ScrollLink>
         </li>
-        <li className="py-6 text-4xl">
+        <li className="py-8 text-6xl">
           <ScrollLink
             to="sobra"
             smooth={true}
@@ -103,10 +97,10 @@ const Header = () => {
             onClick={handleClick}
             className="hover:scale-105 cursor-pointer"
           >
-          Sobre o app
+            Sobre o app
           </ScrollLink>
         </li>
-        <li className="py-6 text-4xl">
+        <li className="py-8 text-6xl">
           <ScrollLink
             to="Proposta"
             smooth={true}
@@ -114,11 +108,8 @@ const Header = () => {
             onClick={handleClick}
             className="hover:scale-105 cursor-pointer"
           >
-           Propostas
+            Propostas
           </ScrollLink>
-        </li>
-        <li className="py-6 text-5xl">
-          
         </li>
       </ul>
     </div>
