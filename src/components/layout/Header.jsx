@@ -39,7 +39,7 @@ const Header = () => {
             duration={500}
             className="cursor-pointer hover:scale-105"
           >
-            sobre
+            Sobre
           </ScrollLink>
           <ScrollLink
             to="benefits"
@@ -55,7 +55,7 @@ const Header = () => {
             duration={500}
             className="cursor-pointer hover:scale-105"
           >
-            sobre o app
+            Sobre o app
           </ScrollLink>
         </div>
         <div className="hidden lg:flex">
@@ -92,7 +92,7 @@ const Header = () => {
             onClick={handleClick}
             className="hover:scale-105 cursor-pointer"
           >
-            sobre
+            Sobre
           </ScrollLink>
         </li>
         <li className="py-6 text-4xl">
@@ -114,7 +114,7 @@ const Header = () => {
             onClick={handleClick}
             className="hover:scale-105 cursor-pointer"
           >
-            sobre o app
+            Sobre o app
           </ScrollLink>
         </li>
         <li className="py-6 text-5xl">
