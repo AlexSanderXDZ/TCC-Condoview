@@ -7,13 +7,13 @@ const Benefits = () => {
   const [benefits] = useGlobalState("benefits");
   return (
     <div
-      className="bg-[#FAFAFA] lg:flex justify-between px-5 py-12 lg:p-20"
+      className="bg-[#FAFAFA] lg:flex lg:flex-row-reverse justify-between px-5 py-12 lg:p-20"
       id="proposta"
     >
-      <div className="w-full lg:w-1/2 flex items-center justify-center lg:justify-start">
-        <img src={img} className="lg:w-[90%] mt-6 lg:mt-0" alt="" />
+      <div className="w-full lg:w-1/2 flex items-center justify-center lg:justify-end">
+        <img src={img} className="lg:w-[90%] mt-6 lg:mt-0" alt="Imagem de Propostas" />
       </div>
-      <div className="w-full lg:w-1/2 space-y-3 mt-5">
+      <div className="w-full lg:w-1/2 space-y-3 mt-5 lg:mt-0">
         <h1 className="text-[#111827] text-3xl font-bold lg:text-4xl mb-6">
           Propostas
         </h1>
