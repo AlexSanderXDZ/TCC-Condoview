@@ -22,12 +22,12 @@ const HeroText = () => {
         </p>
       </div>
       <div className="hidden lg:flex lg:space-x-5">
-        <img src={btn1} className="w-40" alt="Download on the Play Store" />
-        <img src={btn2} className="w-40" alt="Download on the Apple Store" />
+        <img src={btn1} className="w-40" alt="Disponível no Google Play" />
+        <img src={btn2} className="w-40" alt="Baixar na App Store" />
       </div>
       <div className="block lg:hidden space-y-5">
-        <img src={btnsm} className="w-full sm:w-96" alt="Download on the Apple Store" />
-        <img src={btn2sm} className="w-full sm:w-96" alt="Download on the Play Store" />
+        <img src={btnsm} className="w-full sm:w-96" alt="Baixar na App Store" />
+        <img src={btn2sm} className="w-full sm:w-96" alt="Disponível no Google Play" />
       </div>
     </motion.div>
   );

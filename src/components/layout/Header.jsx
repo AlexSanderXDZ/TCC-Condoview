@@ -1,8 +1,8 @@
-import hero from "../../assets/imgs/indo.png";
+import logo from "../../assets/imgs/Condoview.png"; 
 import { FaTimes, FaBars } from "react-icons/fa";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
+import { Link as ScrollLink } from "react-scroll";
 
 const Header = () => {
   const [nav, setNav] = useState(false);
@@ -11,10 +11,10 @@ const Header = () => {
   return (
     <div
       className="header flex justify-between items-center w-full p-5 lg:px-20"
-      id="hero"
+      id="logo"
     >
       <Link className="flex space-x-2 items-center" to={"/"}>
-        <img src={hero} alt="Condoview Logo" className="w-8 lg:w-10" />
+        <img src={logo} alt="Condoview Logo" className="w-8 lg:w-10" />
         <h1 className="text-xl sm:text-4xl font-bold">CondoView</h1>
       </Link>
 
@@ -70,7 +70,7 @@ const Header = () => {
         className={
           !nav
             ? "hidden"
-            : "absolute top-20 left-0 w-full h-screen flex bg-[#E2BDFF] z-40 flex-col justify-center items-center"
+            : "absolute top-20 left-0 w-full h-screen flex bg-[#C5B4E3] z-40 flex-col justify-center items-center"
         }
       >
         <li className="py-6 text-5xl">
