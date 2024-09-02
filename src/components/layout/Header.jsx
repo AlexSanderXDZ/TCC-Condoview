@@ -26,7 +26,7 @@ const Header = () => {
       <div className="w-3/5 justify-between items-center hidden lg:flex">
         <div className="w-2/3 hidden lg:flex justify-between text-black text-lg font-semibold">
           <ScrollLink
-            to="home"
+            to="inicio"
             smooth={true}
             duration={500}
             className="cursor-pointer hover:scale-105"
@@ -42,20 +42,20 @@ const Header = () => {
             Sobre
           </ScrollLink>
           <ScrollLink
-            to="benefits"
+            to="sobra"
             smooth={true}
             duration={500}
             className="cursor-pointer hover:scale-105"
           >
-           Propostas
+           Sobre o app
           </ScrollLink>
           <ScrollLink
-            to="steps"
+            to="proposta"
             smooth={true}
             duration={500}
             className="cursor-pointer hover:scale-105"
           >
-            Sobre o app
+            Propostas
           </ScrollLink>
         </div>
         <div className="hidden lg:flex">
@@ -75,7 +75,7 @@ const Header = () => {
       >
         <li className="py-6 text-5xl">
           <ScrollLink
-            to="home"
+            to="inicio"
             smooth={true}
             duration={500}
             onClick={handleClick}
@@ -97,24 +97,24 @@ const Header = () => {
         </li>
         <li className="py-6 text-4xl">
           <ScrollLink
-            to="benefits"
+            to="sobra"
+            smooth={true}
+            duration={500}
+            onClick={handleClick}
+            className="hover:scale-105 cursor-pointer"
+          >
+          Sobre o app
+          </ScrollLink>
+        </li>
+        <li className="py-6 text-4xl">
+          <ScrollLink
+            to="Proposta"
             smooth={true}
             duration={500}
             onClick={handleClick}
             className="hover:scale-105 cursor-pointer"
           >
            Propostas
-          </ScrollLink>
-        </li>
-        <li className="py-6 text-4xl">
-          <ScrollLink
-            to="steps"
-            smooth={true}
-            duration={500}
-            onClick={handleClick}
-            className="hover:scale-105 cursor-pointer"
-          >
-            Sobre o app
           </ScrollLink>
         </li>
         <li className="py-6 text-5xl">

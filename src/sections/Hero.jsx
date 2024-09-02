@@ -5,7 +5,7 @@ import img from "../assets/imgs/conda.png";
 
 const Hero = () => {
   return (
-    <div id="home" className='bg-[#C5B4E3] flex flex-col lg:justify-between lg:h-screen w-screen'>
+    <div id="inicio" className='bg-[#C5B4E3] flex flex-col lg:justify-between lg:h-screen w-screen'>
       <Header />
       <div className='lg:flex lg:justify-between'>
         <HeroText />
@@ -16,5 +16,4 @@ const Hero = () => {
     </div>
   );
 }
-
 export default Hero;

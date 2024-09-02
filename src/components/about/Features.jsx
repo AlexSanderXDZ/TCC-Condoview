@@ -6,7 +6,7 @@ import { FaRegCircleCheck } from "react-icons/fa6";
 const Features = () => {
   const [about] = useGlobalState("about");
   return (
-    <div className="lg:flex justify-center lg:justify-between items-center lg:space-x-8 p-5">
+    <div className="lg:flex justify-center lg:justify-between items-center lg:space-x-8 p-5" id="sobra">
       <div className="lg:w-1/3 w-full mx-auto">
         <img
           src={hero}
@@ -15,7 +15,7 @@ const Features = () => {
         />
       </div>
 
-      <div className="w-full lg:w-1/2 py-10 px-5 lg:px-0 space-y-4">
+      <div className="w-full lg:w-1/2 py-10 px-5 lg:px-0 space-y-4" >
         <h1 className="text-[#111827] text-3xl font-bold md:text-4xl mb-4">
           Sobre o App
         </h1>

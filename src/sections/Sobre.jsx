@@ -4,7 +4,7 @@ import Features from '../components/about/Features'
 
 const About = () => {
   return (
-    <div className='space-y-8 lg:space-y-10 ' id='about'>
+    <div className='space-y-8 lg:space-y-10 ' id='sobre'>
         <Header/>
         <Features/>
     </div>

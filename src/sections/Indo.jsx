@@ -3,10 +3,10 @@ import img from "../assets/imgs/indominus.png";
 
 const SignUp = () => {
   return (
-    <div className="lg:h-screen flex-col flex lg:flex-row lg:justify-between lg:items-center w-full">
+    <div className="lg:h-screen flex flex-col lg:flex-row lg:justify-center lg:items-center w-full">
       <div className="space-y-4 p-5 lg:p-20 flex flex-col justify-center lg:w-1/2">
         <h1 className="text-4xl font-bold md:text-4xl">Visite a Indominus Também</h1>
-        <p className="text-lg lg:3xl">E veja sobre nossa equipe</p> 
+        <p className="text-lg lg:text-3xl">E veja sobre nossa equipe</p> 
         <a
           href="https://indominus.vercel.app/"
           target="_blank"
@@ -16,8 +16,8 @@ const SignUp = () => {
           Visitar
         </a>
       </div>
-      <div className="w-full lg:w-1/2 mb-10 lg:mb-0">
-        <img src={img} className="w-full" alt="" />
+      <div className="w-full lg:w-1/3 flex  items-center">
+        <img src={img} className="max-w-full h-auto" alt="Indominus" />
       </div>
     </div>
   );

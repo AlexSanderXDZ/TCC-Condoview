@@ -8,7 +8,7 @@ const Benefits = () => {
   return (
     <div
       className="bg-[#FAFAFA] lg:flex justify-between px-5 py-12 lg:p-20"
-      id="benefits"
+      id="proposta"
     >
       <div className="w-full lg:w-1/2 flex items-center justify-center lg:justify-start">
         <img src={img} className="lg:w-[90%] mt-6 lg:mt-0" alt="" />
