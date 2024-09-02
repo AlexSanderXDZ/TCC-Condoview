@@ -1,4 +1,3 @@
-import logo from "../../assets/imgs/condoview.png"; 
 import { FaTimes, FaBars } from "react-icons/fa";
 import { useState } from "react";
 import { Link } from "react-router-dom";
@@ -14,7 +13,7 @@ const Header = () => {
       id="logo"
     >
       <Link className="flex space-x-2 items-center" to={"/"}>
-        <img src={logo} alt="Condoview Logo" className="w-8 lg:w-10" />
+       {/*<img src="" alt="Condoview Logo" className="w-8 lg:w-10" /> */} 
         <h1 className="text-xl sm:text-4xl font-bold">CondoView</h1>
       </Link>
 

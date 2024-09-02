@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "../../assets/imgs/condoview.png";
 import { BsInstagram } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import { MdArrowForwardIos } from "react-icons/md";
@@ -10,7 +9,7 @@ const Footer = () => {
       <div className="lg:flex justify-between lg:w-[60%]">
         <div className="mb-8 lg:mb-0">
           <Link className="flex space-x-2 items-center mb-2" to={"/"}>
-            <img src={logo} alt="" className="w-8 lg:w-10" />
+           {/*<img src="" alt="" className="w-8 lg:w-10" />*/}
             <h1 className="lg:text-xl text-white lg:text-4xl font-bold">
               CondoView
             </h1>
