@@ -1,4 +1,4 @@
-import logo from "../../assets/imgs/Condoview.png"; 
+import logo from "../../assets/imgs/condoview.png"; 
 import { FaTimes, FaBars } from "react-icons/fa";
 import { useState } from "react";
 import { Link } from "react-router-dom";

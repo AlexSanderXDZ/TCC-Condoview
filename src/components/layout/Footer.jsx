@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../assets/imgs/Condoview.png";
+import logo from "../../assets/imgs/condoview.png";
 import { BsInstagram } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import { MdArrowForwardIos } from "react-icons/md";
