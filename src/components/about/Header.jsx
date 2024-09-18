@@ -9,7 +9,7 @@ const Header = () => {
         </h1>
         <p className=" text-center text-[#525252] text-lg lg:text-xl">
         CondoView é um aplicativo para gestão de condomínios que visa facilitar a
-        omunicação entre moradores, administradores e síndicos. O aplicativo inclui
+        comunicação entre moradores, administradores e síndicos. O aplicativo inclui
         funcionalidades para visualização de avisos, gerenciamento de despesas, encomendas,
         reservas e muito mais.
         </p>
