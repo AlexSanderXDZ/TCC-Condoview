@@ -11,7 +11,7 @@ const SignUp = () => {
         <h1 className="text-4xl font-bold md:text-4xl">Visite a Indominus Também</h1>
         <p className="text-lg lg:text-3xl">E veja sobre nossa equipe</p> 
         <a
-          href="https://indominus.vercel.app/"
+          href="https://site-indominus.vercel.app/"
           target="_blank"
           rel="noopener noreferrer"
           className="w-48 py-3 px-4 font-medium text-xl rounded-md text-white bg-[#141414] hover:bg-[#333333] transition-colors duration-300 transform hover:scale-105 text-center block"
