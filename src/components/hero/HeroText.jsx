@@ -21,13 +21,13 @@ const HeroText = () => {
           INOVAÇÃO QUE TRANSFORMA CONDOMÍNIOS
         </p>
       </div>
-      <div className="mt-8">
+      <div className="space-y-5">
         <a 
           href={betaAppUrl} 
           download 
           className="inline-block px-6 py-3 bg-[#6D28D9] text-white font-semibold text-lg rounded-lg shadow-md hover:bg-[#4C1D95] transition duration-300"
         >
-          Baixe Nossa Versão Beta
+          Baixe nossa Versão Beta <br /> para Android
         </a>
       </div>
     </motion.div>

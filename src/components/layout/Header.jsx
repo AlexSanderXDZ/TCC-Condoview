@@ -24,12 +24,12 @@ const Header = () => {
       <div className="w-3/5 justify-between items-center hidden lg:flex">
         <div className="w-2/3 flex justify-between text-black text-lg font-semibold">
           <ScrollLink
-            to="inicio"
+            to="Inicio"
             smooth={true}
             duration={500}
             className="cursor-pointer hover:scale-105"
           >
-            inicio
+            Inicio
           </ScrollLink>
           <ScrollLink
             to="sobre"
@@ -68,13 +68,13 @@ const Header = () => {
       >
         <li className="py-8 text-6xl">
           <ScrollLink
-            to="inicio"
+            to="Inicio"
             smooth={true}
             duration={500}
             onClick={handleClick}
             className="hover:scale-105 cursor-pointer"
           >
-            inicio
+            Inicio
           </ScrollLink>
         </li>
         <li className="py-8 text-6xl">
