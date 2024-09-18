@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const HeroText = () => {
   // URL do arquivo beta do app
-  const betaAppUrl = 'https://github.com/AlexSanderXDZ/Beta-Condoapp/raw/main/betaapk.apk'; 
+  const betaAppUrl = 'https://github.com/AlexSanderXDZ/Beta-Condoapp/raw/refs/heads/main/Condoapp-Beta.apk'; 
 
   return (
     <motion.div
