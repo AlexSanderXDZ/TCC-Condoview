@@ -9,7 +9,7 @@ const Header = () => {
 
   return (
     <div
-      className="header flex justify-between items-center w-full p-5 lg:px-20"
+      className="header flex justify-between items-center w-full p-5 lg:px-20 "
       id="logo"
     >
       <Link className="flex space-x-2 items-center" to={"/"}>
@@ -21,7 +21,7 @@ const Header = () => {
         {!nav ? <FaBars /> : <FaTimes className="hover:text-red-500" />}
       </div>
 
-      <div className="w-3/5 justify-between items-center hidden lg:flex">
+      <div className="w-3/5 justify-between items-center hidden lg:flex ">
         <div className="w-2/3 flex justify-between text-black text-lg font-semibold">
           <ScrollLink
             to="Início"
@@ -63,7 +63,7 @@ const Header = () => {
         className={
           !nav
             ? "hidden"
-            : "absolute top-20 left-0 w-full h-screen flex bg-[#C5B4E3] z-40 flex-col justify-center items-center"
+            : "absolute top-20 left-0 w-full h-screen flex bg-[#A] z-40 flex-col justify-center items-center"
         }
       >
         <li className="py-8 text-6xl">
