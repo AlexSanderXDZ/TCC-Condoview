@@ -26,7 +26,7 @@ const HeroText = ({ className }) => {
           download 
           className="inline-block px-6 py-3 bg-[#6D28D9] text-white font-semibold text-lg rounded-lg shadow-md hover:bg-[#4C1D95] transition duration-300"
         >
-          Baixe Nossa Versão Beta para Android
+          Experimente a versão beta para Android
         </a>
       </div>
     </motion.div>
