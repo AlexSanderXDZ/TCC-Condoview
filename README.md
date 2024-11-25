@@ -4,7 +4,7 @@
 
 Acesse o site oficial: [CondoView](https://tcc-condoview.vercel.app/)
 
-> **Observação:** O CondoView ainda está em fase **beta** e não está totalmente pronto. A plataforma é uma demonstração para mostrar como será o produto final, mas algumas funcionalidades podem não estar implementadas ou funcionar de forma incompleta. Agradecemos pelo seu interesse e feedback!
+> **Observação:** O CondoView ainda está em fase **beta** e a versão disponível no site **não possui banco de dados**. Ela é uma demonstração inicial para mostrar como será o produto final, e algumas funcionalidades podem não estar implementadas ou não funcionar de forma completa. A versão para os desenvolvedores já conta com funcionalidades mais atualizadas e banco de dados. Agradecemos pelo seu interesse e feedback!
 
 ## Problematização
 
@@ -56,5 +56,5 @@ O **CondoView** oferece diversas funcionalidades para atender às necessidades d
 2. **Baixe o App Beta:** Faça o download do aplicativo em versão beta para testar as funcionalidades do CondoView. O aplicativo está em fase de teste, e algumas funções podem estar em desenvolvimento.
 3. **Explore a Demo:** O site serve como uma demonstração do produto final, para que você tenha uma ideia de como será a plataforma completa.
 
-> **Importante:** A versão do site é uma demonstração inicial sem banco de dados, ou seja, as funcionalidades estão limitadas, e algumas ainda não foram implementadas. A plataforma está em constante evolução, e novas funcionalidades serão adicionadas em versões futuras. O objetivo desta versão é oferecer uma visão geral de como será o produto final.
+> **Importante:** A versão atual do site é uma demonstração inicial **sem banco de dados** e sem todas as funcionalidades implementadas. Trata-se de uma versão apenas para teste, para que os usuários possam ter uma ideia de como será o produto final. A versão para os desenvolvedores já inclui funcionalidades mais atualizadas e banco de dados em funcionamento.
 
