@@ -8,8 +8,8 @@ const SignUp = () => {
         <img src={img} className="max-w-full h-auto" alt="Indominus" />
       </div>
       <div className="space-y-4 p-5 lg:p-20 flex flex-col justify-center lg:w-1/2">
-        <h1 className="text-4xl font-bold md:text-4xl">Visite o Site da Indominus Também</h1>
-        <p className="text-lg lg:text-3xl">veja mais sobre nossa equipe</p> 
+        <h1 className="text-4xl font-bold md:text-4xl">Visite o site da Indominus também</h1>
+        <p className="text-lg lg:text-3xl">Veja mais sobre nossa equipe</p> 
         <a
           href="https://site-indominus.vercel.app/"
           target="_blank"

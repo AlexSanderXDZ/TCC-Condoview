@@ -24,11 +24,11 @@ const { setGlobalState, useGlobalState, getGlobalState } = createGlobalState(
     benefits :[
         {
             id: 1,
-            text: "Variedade de funções",
+            text: "Gerenciamento Eficiente",
         },
         {
             id: 2,
-            text: "Suporte 24h",
+            text: "Variedade de Funções",
         },
         {
             id: 3,
